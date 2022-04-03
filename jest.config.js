@@ -1,7 +1,5 @@
-/*
- * For a detailed explanation regarding each configuration property, visit:
- * https://jestjs.io/docs/en/configuration.html
- */
+// For a detailed explanation regarding each configuration property, visit:
+// https://jestjs.io/docs/en/configuration.html
 
 module.exports = {
   // All imported modules in your tests should be mocked automatically
@@ -176,8 +174,7 @@ module.exports = {
 
   // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
   // transformIgnorePatterns: [
-  //   "/node_modules/",
-  //   "\\.pnp\\.[^\\/]+$"
+  //   "/node_modules/"
   // ],
 
   // An array of regexp pattern strings that are matched against all modules before the module loader will automatically return a mock for them

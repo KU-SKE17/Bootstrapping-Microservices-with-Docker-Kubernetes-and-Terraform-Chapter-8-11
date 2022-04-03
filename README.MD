@@ -23,3 +23,10 @@ npx jest --watch
 npm test
 npm run test:watch
 ```
+
+```bash
+docker-compose up
+
+npm install --save mongodb
+npm install --save-dev axios
+```
