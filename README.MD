@@ -29,4 +29,13 @@ docker-compose up
 
 npm install --save mongodb
 npm install --save-dev axios
+
+npm install --save-dev cypress
+```
+
+```bash
+npx cypress open
+
+# build db after booting
+docker-compose up --build
 ```
